@@ -1,0 +1,26 @@
+# ===== Build output =====
+target/
+build/
+out/
+
+# ===== IDE files =====
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
+
+# ===== Tooling metadata =====
+.freebuff/
+
+# ===== Logs =====
+*.log
+
+# ===== Local secrets (never commit real passwords) =====
+application-local.properties
+.env
